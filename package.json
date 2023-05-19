@@ -1,0 +1,21 @@
+{
+  "name": "ifcjs-convert-cli",
+  "version": "0.0.1",
+  "description": "CLI tool to convert IFC file to json and glTF",
+  "main": "convert.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "woweh",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^20.2.1",
+    "web-ifc-viewer": "^1.0.216"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.22.0"
+  }
+}
